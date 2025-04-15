@@ -17,6 +17,8 @@ function CartItems() {
         const item = JSON.parse(localStorage.getItem(key));
         // const item = JSON.parse(localStorage.getItem(key));
         console.log(item);
+        console.log(localStorage.length);
+        
         
         TotalPrice += item.price ;
 
